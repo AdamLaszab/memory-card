@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'PokemonFont';
+    src: url(assets/xdd.ttf) format('truetype');
+  }
+
+body {
+    background-image: url('assets/pxfuel.jpg');
+    background-size: cover;
+    background-position: center center; 
+    background-repeat: no-repeat; 
+  }
 .logo{
     height: 300px;
 }
@@ -5,24 +16,60 @@
     display:flex;
     align-items: center;
     flex-direction: column;
-    font-size: 30px;
+    font-size: 50px;
+    font-family: 'PokemonFont', sans-serif;
+    color: rgb(42, 117, 187);
 }
 .karta{
-    background-color: aquamarine;
+    background-color: white;
     font-size: 25px;
     width: 250px;
     display: flex;
+    font-style: bold;
     align-items: center;
     flex-direction: column;
+    border-radius: 30px;
+    color:black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .obrazok{
     width: 200px;
 }
 .telo{
+    padding-top: 10px;
     display: flex;
     flex-direction: row;
     gap: 10px;
     flex-wrap: wrap;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 21vw;
+    padding-right: 18vw;
+}
+.footer{
+    width: 100%;
+    height: 3dvh;
+    display: flex;
+    flex-direction: row;
+    background-color: #1e2c51;
+    align-items: center;
+    justify-content: center;
+    color: #eff9fe
+}
+
+.github_brand{
+    color: #eff9fe;
+    padding-left: 12px;
+}
+.konec{
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.git{
+    width: 22px;
+    padding-right: 5px;
 }
