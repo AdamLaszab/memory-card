@@ -10,7 +10,7 @@ function Card({test}) {
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min)) + min;
   }
-  let random=getRandomInt(1,151);
+  let random=getRandomInt(1,15);
   useEffect(() => {
     setValue(random);
     const fetchData = async () => {
