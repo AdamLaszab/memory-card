@@ -4,27 +4,28 @@
   }
 
 body {
-    background-image: url('assets/pxfuel.jpg');
+    background-image: url("public/assets/pxfuel.jpg");
     background-size: cover;
     background-position: center center; 
     background-repeat: no-repeat; 
   }
 .logo{
-    height: 300px;
+    height: min(35vw,300px);
 }
 .header{
     display:flex;
     align-items: center;
     flex-direction: column;
-    font-size: 50px;
+    font-size: min(8vw, 50px); 
     font-weight: bolder;
     font-family: sans-serif;
     color: rgb(42, 117, 187);
 }
 .karta{
     background-color: white;
-    font-size: 25px;
-    width: 250px;
+    font-size: min(3vw,25px);
+    width: min(27vw,250px);
+    height: min(27vw,250px);
     display: flex;
     font-style: bold;
     align-items: center;
@@ -34,7 +35,7 @@ body {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .obrazok{
-    width: 200px;
+    width: min(20vw,200px);
 }
 .telo{
     padding-top: 10px;

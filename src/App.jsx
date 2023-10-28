@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import Card from './Card.jsx'
-import Logo from './assets/image.png';
 import './styles.css'
 function App() {
   const[highScore,setHighscore]=useState(0);
@@ -22,7 +21,7 @@ function App() {
   }
   return <div>
     <div className='header'>
-      <img className='logo' src={Logo}></img>
+      <img className='logo' src="/assets/image.png"></img>
       <div>
         MEMORY GAME
       </div>
@@ -45,7 +44,7 @@ function App() {
     </div>
     <div className='konec'>
         <a href='https://github.com/AdamLaszab'>
-        <img className='git' src='src/assets/github-mark.png'>     
+        <img className='git' src='/assets/github-mark.png'>     
         </img>
         </a>
         <div>
