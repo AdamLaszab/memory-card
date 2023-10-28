@@ -5,10 +5,11 @@
 
   body {
     background-image:
-      url("/assets/pxfuel.jpg");
+      url("/assets/pxfuel.jpg"),
+      url("/assets/xdd.jpg");
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat,repeat;
   }
 
 .logo{
